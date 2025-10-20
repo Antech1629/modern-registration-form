@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcoral;
+    font-family: fantasy;
+    margin: 0;
+}
+.container{
+    text-align: center ;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 15px;
+    flex-direction: column;
+    width:300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    border-radius: 15px;
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 15px;
+    border: 5px dotted black:
+    align-items: center;
+    text-align: center;
+}
+#gender{
+    font-family: fantasy;
+}
+button{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    color: gold;
+    background-color: black;
+}
